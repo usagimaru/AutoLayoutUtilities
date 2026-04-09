@@ -2,7 +2,7 @@
 
 # AutoLayoutUtilities
 
-Appleプラットフォーム (iOS / macOS) のAuto Layoutを簡潔に記述するための軽量Swiftライブラリです。作者が個人的に利用していたものをついでに公開しました。
+macOS (AppKit) およびiOS (UIKit) のAuto Layoutを簡潔に記述するための軽量Swiftライブラリです。作者が個人的に利用していたものをついでに公開しました。
 
 ## 特徴
 

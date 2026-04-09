@@ -2,7 +2,7 @@
 
 # AutoLayoutUtilities
 
-A lightweight Swift library that provides fluent, chainable helpers for Auto Layout on Apple platforms (iOS / macOS). Originally a personal toolkit, now published for public use.
+A lightweight Swift library that provides fluent, chainable helpers for Auto Layout on Apple platforms (macOS AppKit and iOS UIKit). Originally a personal toolkit, now published for public use.
 
 ## Features
 
