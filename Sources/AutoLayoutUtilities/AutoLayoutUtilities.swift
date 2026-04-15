@@ -356,7 +356,7 @@ public struct LayoutProxy<Owner: LayoutAnchorAccessor> {
 	}
 	
 	@discardableResult
-	public func centerXConstraints(to: LayoutAnchorAccessor,
+	public func centerXConstraint(to: LayoutAnchorAccessor,
 								  operator o: NSLayoutConstraint.CalculationOperator = .equalTo,
 								  multiplier: CGFloat = 1,
 								  constant: CGFloat = 0,
@@ -367,11 +367,11 @@ public struct LayoutProxy<Owner: LayoutAnchorAccessor> {
 	}
 	
 	@discardableResult
-	public func centerYConstraints(to: LayoutAnchorAccessor,
-								   operator o: NSLayoutConstraint.CalculationOperator = .equalTo,
-								   multiplier: CGFloat = 1,
-								   constant: CGFloat = 0,
-								   priority: LayoutPriority = .required) -> NSLayoutConstraint
+	public func centerYConstraint(to: LayoutAnchorAccessor,
+								  operator o: NSLayoutConstraint.CalculationOperator = .equalTo,
+								  multiplier: CGFloat = 1,
+								  constant: CGFloat = 0,
+								  priority: LayoutPriority = .required) -> NSLayoutConstraint
 	{
 		(owner as? PlatformView)?.translatesAutoresizingMaskIntoConstraints = false
 		return centerY.constraint(to: to.centerYAnchor, operator: o, constant: constant, priority: priority, swapItems: false)
