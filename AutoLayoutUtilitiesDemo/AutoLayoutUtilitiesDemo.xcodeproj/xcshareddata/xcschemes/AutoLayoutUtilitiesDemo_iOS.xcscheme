@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "2640"
+   LastUpgradeVersion = "2710"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,10 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AutoLayoutUtilities"
-               BuildableName = "AutoLayoutUtilities"
-               BlueprintName = "AutoLayoutUtilities"
-               ReferencedContainer = "container:">
+               BlueprintIdentifier = "51C918992F87968B0067C4B6"
+               BuildableName = "AutoLayoutUtilitiesDemo_iOS.app"
+               ReferencedContainer = "container:AutoLayoutUtilitiesDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,7 +39,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
-      queueDebuggingEnableBacktraceRecording = "Yes">
+      queueDebuggingEnabled = "No">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "51C918992F87968B0067C4B6"
+            BuildableName = "AutoLayoutUtilitiesDemo_iOS.app"
+            ReferencedContainer = "container:AutoLayoutUtilitiesDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -48,15 +56,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AutoLayoutUtilities"
-            BuildableName = "AutoLayoutUtilities"
-            BlueprintName = "AutoLayoutUtilities"
-            ReferencedContainer = "container:">
+            BlueprintIdentifier = "51C918992F87968B0067C4B6"
+            BuildableName = "AutoLayoutUtilitiesDemo_iOS.app"
+            ReferencedContainer = "container:AutoLayoutUtilitiesDemo.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
